@@ -1,10 +1,7 @@
-#AlgoAlpha
+# AlgoAlpha
 
-**Table of Contents**
 
-[TOC]
-
-##Introduction
+## Introduction
 AlgoAlpha is a prototype for creating and back testing algorithms. It processes data into training data sets. The program uses this training data set to back test different strategies and train the model with different features such as GARCH model and linear regression. AlgoAlpha will clean the data by standardizing the variables which allows users to compare results of different variables and generate possible investment idea.
 ##Prerequisites
 AlgoAlpha uses the following packages: pandas, arch, sklearn
@@ -15,8 +12,8 @@ AlgoAlpha uses the following packages: pandas, arch, sklearn
 
 
 
-##Features
-####Technical indicator
+## Features
+#### Technical indicator
 + Commodity Channel Index (CCI) (5,13,21 days)
 + Moving Average Convergence/Divergence (MACD) (9 days)
 + Relative Strength Index (RSI) (5,13,21 days)
@@ -26,14 +23,14 @@ AlgoAlpha uses the following packages: pandas, arch, sklearn
 + On-balance Volume (OBV) (14 days)
 + PX_Slope (14 days)
 
-####Statistical modelling
+#### Statistical modelling
 + Linear Regression
 + GARCH model
 
 
 
 
-##Example of running the program
+## Example of running the program
 	source_path = 'C:\\Users\\Documents\\FINA4390\\source\\*.csv'
 	target_path = 'C:\\Users\\Documents\\FINA4390\\individual'
 To run the program, please specify the file(.csv) with data that you would like to analyse and the path for outputting the results.
